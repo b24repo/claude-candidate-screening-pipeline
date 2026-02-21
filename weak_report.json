@@ -1,0 +1,56 @@
+{
+  "candidate": {
+    "name": "Social Media",
+    "email": "jane.doe@email.com",
+    "extracted_data": {
+      "name": "Social Media",
+      "email": "jane.doe@email.com",
+      "phone": null,
+      "skills": [
+        "social media",
+        "communication"
+      ],
+      "experience_years": 0,
+      "education": [
+        "Bachelor's Degree"
+      ],
+      "past_roles": [],
+      "summary": "Experienced professional with demonstrated expertise in marketing and business operations."
+    }
+  },
+  "screening": {
+    "job_title": "Digital Marketing Manager",
+    "screening_date": "2026-02-21T10:43:34.459218",
+    "overall_score": 16.8,
+    "recommendation": "pass",
+    "confidence": "high",
+    "reasoning": "Does not meet minimum requirements (16.8%). Missing multiple critical skills: Digital Marketing Strategy, Google Analytics"
+  },
+  "scores": {
+    "overall": 16.8,
+    "skills": 0.0,
+    "experience": 5,
+    "education": 95
+  },
+  "skills_analysis": {
+    "matched_required": [],
+    "missing_required": [
+      "Digital Marketing Strategy",
+      "Google Analytics",
+      "Content Marketing",
+      "Email Marketing"
+    ],
+    "matched_preferred": []
+  },
+  "assessments": {
+    "experience": "Below target (0 years vs 5 required)",
+    "education": "Meets or exceeds requirement: Bachelor's Degree"
+  },
+  "interview_questions": [
+    "Can you walk us through your most successful digital marketing manager project and the metrics you used to measure success?",
+    "What is your understanding of modern digital marketing best practices, and how do you stay current with industry trends?",
+    "While we see you have strong social media skills, how would you approach learning Digital Marketing Strategy in this role?",
+    "Tell us about a time you successfully collaborated with people from different departments or with different expertise. What made it effective?",
+    "What attracts you to this role and our company, and where do you see yourself in 3 years?"
+  ]
+}

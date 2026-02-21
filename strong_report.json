@@ -1,0 +1,84 @@
+{
+  "candidate": {
+    "name": "Senior Digital",
+    "email": "john.smith@email.com",
+    "extracted_data": {
+      "name": "Senior Digital",
+      "email": "john.smith@email.com",
+      "phone": "(555) 123-4567",
+      "skills": [
+        "digital marketing",
+        "analytics",
+        "content marketing",
+        "seo",
+        "email marketing",
+        "social media",
+        "marketing automation",
+        "hubspot",
+        "google analytics",
+        "data analysis",
+        "python",
+        "figma",
+        "salesforce",
+        "crm",
+        "excel",
+        "canva",
+        "market research",
+        "project management",
+        "leadership",
+        "communication"
+      ],
+      "experience_years": 7,
+      "education": [
+        "Master's Degree",
+        "Bachelor's Degree"
+      ],
+      "past_roles": [
+        "Senior Digital Marketing Manager",
+        "Digital Marketing Specialist",
+        "Marketing Coordinator"
+      ],
+      "summary": "Results-driven professional with 7+ years of marketing experience and proven success in campaign management and strategy."
+    }
+  },
+  "screening": {
+    "job_title": "Digital Marketing Manager",
+    "screening_date": "2026-02-21T10:43:39.276191",
+    "overall_score": 74.8,
+    "recommendation": "review",
+    "confidence": "medium",
+    "reasoning": "Solid candidate (74.8%) but missing Digital Marketing Strategy. Worth reviewing for potential with training."
+  },
+  "scores": {
+    "overall": 74.8,
+    "skills": 75.0,
+    "experience": 90,
+    "education": 95
+  },
+  "skills_analysis": {
+    "matched_required": [
+      "Google Analytics",
+      "Content Marketing",
+      "Email Marketing"
+    ],
+    "missing_required": [
+      "Digital Marketing Strategy"
+    ],
+    "matched_preferred": [
+      "Marketing Automation",
+      "SEO",
+      "Data Analysis"
+    ]
+  },
+  "assessments": {
+    "experience": "Meets requirement with 7 years of experience",
+    "education": "Meets or exceeds requirement: Master's Degree"
+  },
+  "interview_questions": [
+    "Can you walk us through your most successful digital marketing manager project and the metrics you used to measure success?",
+    "How have you evolved your approach to digital marketing strategy over the years, and what key lessons have you learned?",
+    "While we see you have strong digital marketing skills, how would you approach learning Digital Marketing Strategy in this role?",
+    "Describe your leadership style and how you approach managing and developing team members.",
+    "What attracts you to this role and our company, and where do you see yourself in 3 years?"
+  ]
+}

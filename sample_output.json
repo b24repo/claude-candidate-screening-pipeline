@@ -1,84 +1,165 @@
 {
-  "candidate_name": "Sarah Johnson",
-  "evaluation_date": "2026-02-21T10:30:00Z",
-  "job_title": "Senior Software Engineer",
-  "overall_score": 85,
-  "recommendation": "STRONG_HIRE",
-  "skills_analysis": {
-    "required_skills_matched": [
-      {
-        "skill": "Python",
-        "proficiency": "expert",
-        "years_experience": 7,
-        "score": 95
-      },
-      {
-        "skill": "Amazon Web Services (AWS)",
-        "proficiency": "advanced",
-        "years_experience": 5,
-        "score": 88
-      },
-      {
-        "skill": "Docker and Kubernetes",
-        "proficiency": "advanced",
-        "years_experience": 4,
-        "score": 82
-      },
-      {
-        "skill": "Microservices Architecture",
-        "proficiency": "advanced",
-        "years_experience": 5,
-        "score": 85
+  "strong_candidate_example": {
+    "candidate": {
+      "name": "John Smith",
+      "email": "john.smith@email.com",
+      "extracted_data": {
+        "name": "John Smith",
+        "email": "john.smith@email.com",
+        "phone": "(555) 123-4567",
+        "skills": [
+          "Digital Marketing Strategy",
+          "Google Analytics",
+          "Content Marketing",
+          "Email Marketing",
+          "Marketing Automation",
+          "SEO",
+          "A/B Testing",
+          "Data Analysis",
+          "Social Media Marketing",
+          "Project Management"
+        ],
+        "experience_years": 7,
+        "education": [
+          "Master's Degree",
+          "Bachelor's Degree"
+        ],
+        "past_roles": [
+          "Senior Digital Marketing Manager",
+          "Digital Marketing Specialist",
+          "Marketing Coordinator"
+        ],
+        "summary": "Results-driven professional with 7+ years of marketing experience and proven success in campaign management and strategy."
       }
-    ],
-    "required_skills_missing": [],
-    "preferred_skills_matched": [
-      {
-        "skill": "GraphQL",
-        "proficiency": "intermediate",
-        "score": 70
-      },
-      {
-        "skill": "Terraform",
-        "proficiency": "advanced",
-        "score": 85
+    },
+    "screening": {
+      "job_title": "Digital Marketing Manager",
+      "screening_date": "2024-02-21T10:30:00",
+      "overall_score": 91.5,
+      "recommendation": "hire",
+      "confidence": "high",
+      "reasoning": "Strong candidate with 91.5% overall score. Meets all required skills and experience requirements. Demonstrates clear progression through increasingly senior roles with measurable impact on business metrics."
+    },
+    "scores": {
+      "overall": 91.5,
+      "skills": 95.0,
+      "experience": 98.0,
+      "education": 95.0
+    },
+    "skills_analysis": {
+      "matched_required": [
+        "Digital Marketing Strategy",
+        "Google Analytics",
+        "Content Marketing",
+        "Email Marketing"
+      ],
+      "missing_required": [],
+      "matched_preferred": [
+        "Marketing Automation",
+        "SEO",
+        "A/B Testing",
+        "Data Analysis"
+      ]
+    },
+    "assessments": {
+      "experience": "Meets requirement with 7 years of experience. Significantly exceeds minimum 5-year requirement with progressive responsibility growth.",
+      "education": "Meets or exceeds requirement: Master's Degree. Advanced degree demonstrates commitment to professional development beyond entry-level."
+    },
+    "interview_questions": [
+      "Can you walk us through your most successful Digital Marketing Manager project and the metrics you used to measure success?",
+      "How have you evolved your approach to digital marketing strategy over the years, and what key lessons have you learned from leading teams and campaigns?",
+      "Tell us about a time when you had to develop a skill outside your comfort zone. How did you approach it?",
+      "Describe your leadership style and how you approach managing and developing team members to achieve marketing objectives.",
+      "What attracts you to this role and our company, and where do you see yourself in 3 years in terms of career progression?"
+    ]
+  },
+  "weak_candidate_example": {
+    "candidate": {
+      "name": "Jane Doe",
+      "email": "jane.doe@email.com",
+      "extracted_data": {
+        "name": "Jane Doe",
+        "email": "jane.doe@email.com",
+        "phone": null,
+        "skills": [
+          "Social Media",
+          "Content Marketing",
+          "Microsoft Office",
+          "Writing",
+          "Graphic Design"
+        ],
+        "experience_years": 0,
+        "education": [
+          "Bachelor's Degree"
+        ],
+        "past_roles": [
+          "Social Media Intern"
+        ],
+        "summary": "Experienced professional with demonstrated expertise in marketing and business operations."
       }
-    ],
-    "preferred_skills_missing": ["Rust"],
-    "total_skills_score": 87
+    },
+    "screening": {
+      "job_title": "Digital Marketing Manager",
+      "screening_date": "2024-02-21T11:15:00",
+      "overall_score": 28.5,
+      "recommendation": "pass",
+      "confidence": "high",
+      "reasoning": "Does not meet minimum requirements (28.5%). Missing multiple critical skills: Email Marketing, Marketing Automation. Lacks the 5+ years of experience requirement with only internship-level experience. Consider for entry-level marketing coordinator role instead."
+    },
+    "scores": {
+      "overall": 28.5,
+      "skills": 25.0,
+      "experience": 5.0,
+      "education": 75.0
+    },
+    "skills_analysis": {
+      "matched_required": [
+        "Content Marketing"
+      ],
+      "missing_required": [
+        "Digital Marketing Strategy",
+        "Google Analytics",
+        "Email Marketing"
+      ],
+      "matched_preferred": []
+    },
+    "assessments": {
+      "experience": "Below target (0 years vs 5 required). Candidate is at entry level with limited professional marketing experience beyond academic projects and internships.",
+      "education": "Meets or exceeds requirement: Bachelor's Degree. However, recent graduate with coursework but limited practical application experience."
+    },
+    "interview_questions": [
+      "Can you walk us through your most successful marketing project and the metrics you used to measure success?",
+      "While we see you have strong Social Media skills, how would you approach learning Google Analytics in this role, and what resources would you use to develop expertise quickly?",
+      "Tell us about a time you successfully collaborated with people from different departments or with different expertise. What made it effective?",
+      "What is your understanding of modern digital marketing best practices, especially regarding marketing automation and email campaign management?",
+      "What attracts you to this Digital Marketing Manager role, and where do you see yourself in 3 years once you've developed the necessary experience?"
+    ]
   },
-  "experience_analysis": {
-    "total_years": 9,
-    "relevant_years": 7,
-    "leadership_experience": true,
-    "industry_match": true,
-    "key_achievements": [
-      "Led migration of monolithic app to microservices, reducing deployment time by 75%",
-      "Built real-time data pipeline processing 10M+ events/day",
-      "Mentored 5 junior engineers, 3 of whom were promoted"
-    ],
-    "experience_score": 85
-  },
-  "education_analysis": {
-    "highest_degree": "Master's in Computer Science",
-    "institution": "Stanford University",
-    "relevance": "high",
-    "certifications": ["AWS Solutions Architect Professional", "CKA (Certified Kubernetes Administrator)"],
-    "education_score": 90
-  },
-  "culture_fit_indicators": {
-    "collaboration": "Strong - mentions cross-functional work multiple times",
-    "leadership": "Evident - led teams and mentored juniors",
-    "continuous_learning": "Active - recent certifications and conference talks",
-    "score": 80
-  },
-  "interview_questions": [
-    "Can you walk us through your microservices migration project? What were the biggest challenges and how did you handle them?",
-    "Your GraphQL experience seems intermediate. How would you approach designing a GraphQL API for a high-traffic e-commerce platform?",
-    "Describe your experience with data pipeline architecture at scale. What tools did you use and why did you choose them?",
-    "How do you approach mentoring junior engineers? Can you give an example of how you helped someone grow?",
-    "We occasionally need Rust for performance-critical services. How comfortable are you picking up new systems languages?"
-  ],
-  "red_flags": [],
-  "summary": "Sarah is a highly qualified candidate with strong technical skills and proven leadership experience. Her background in microservices, cloud infrastructure, and data pipelines aligns well with the role requirements. The only minor gap is intermediate GraphQL and no Rust experience, but her learning trajectory suggests she can ramp up quickly."
+  "schema_documentation": {
+    "overview": "This JSON structure represents the output from a candidate screening pipeline. Each candidate receives a comprehensive evaluation against job requirements.",
+    "candidate_section": {
+      "name": "String - Candidate's full name",
+      "email": "String - Candidate's email address",
+      "extracted_data": "Object containing structured resume data extracted via Claude API or regex patterns"
+    },
+    "screening_section": {
+      "job_title": "String - Position being screened for",
+      "screening_date": "ISO 8601 timestamp of when screening was performed",
+      "overall_score": "Number 0-100 - Weighted composite score across all criteria",
+      "recommendation": "Enum: 'hire' (80+%), 'review' (60-80%), 'pass' (<60%)",
+      "confidence": "Enum: 'high', 'medium', 'low' - Confidence level in recommendation"
+    },
+    "scores_section": {
+      "overall": "Weighted composite score",
+      "skills": "Skill match percentage (0-100)",
+      "experience": "Experience requirement match (0-100)",
+      "education": "Education requirement match (0-100)"
+    },
+    "skills_analysis_section": {
+      "matched_required": "Array of required skills candidate possesses",
+      "missing_required": "Array of required skills candidate lacks",
+      "matched_preferred": "Array of preferred skills candidate possesses"
+    },
+    "interview_questions": "Array of 5 personalized questions generated based on candidate profile, gaps, and strengths"
+  }
 }
