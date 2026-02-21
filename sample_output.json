@@ -1,0 +1,84 @@
+{
+  "candidate_name": "Sarah Johnson",
+  "evaluation_date": "2026-02-21T10:30:00Z",
+  "job_title": "Senior Software Engineer",
+  "overall_score": 85,
+  "recommendation": "STRONG_HIRE",
+  "skills_analysis": {
+    "required_skills_matched": [
+      {
+        "skill": "Python",
+        "proficiency": "expert",
+        "years_experience": 7,
+        "score": 95
+      },
+      {
+        "skill": "Amazon Web Services (AWS)",
+        "proficiency": "advanced",
+        "years_experience": 5,
+        "score": 88
+      },
+      {
+        "skill": "Docker and Kubernetes",
+        "proficiency": "advanced",
+        "years_experience": 4,
+        "score": 82
+      },
+      {
+        "skill": "Microservices Architecture",
+        "proficiency": "advanced",
+        "years_experience": 5,
+        "score": 85
+      }
+    ],
+    "required_skills_missing": [],
+    "preferred_skills_matched": [
+      {
+        "skill": "GraphQL",
+        "proficiency": "intermediate",
+        "score": 70
+      },
+      {
+        "skill": "Terraform",
+        "proficiency": "advanced",
+        "score": 85
+      }
+    ],
+    "preferred_skills_missing": ["Rust"],
+    "total_skills_score": 87
+  },
+  "experience_analysis": {
+    "total_years": 9,
+    "relevant_years": 7,
+    "leadership_experience": true,
+    "industry_match": true,
+    "key_achievements": [
+      "Led migration of monolithic app to microservices, reducing deployment time by 75%",
+      "Built real-time data pipeline processing 10M+ events/day",
+      "Mentored 5 junior engineers, 3 of whom were promoted"
+    ],
+    "experience_score": 85
+  },
+  "education_analysis": {
+    "highest_degree": "Master's in Computer Science",
+    "institution": "Stanford University",
+    "relevance": "high",
+    "certifications": ["AWS Solutions Architect Professional", "CKA (Certified Kubernetes Administrator)"],
+    "education_score": 90
+  },
+  "culture_fit_indicators": {
+    "collaboration": "Strong - mentions cross-functional work multiple times",
+    "leadership": "Evident - led teams and mentored juniors",
+    "continuous_learning": "Active - recent certifications and conference talks",
+    "score": 80
+  },
+  "interview_questions": [
+    "Can you walk us through your microservices migration project? What were the biggest challenges and how did you handle them?",
+    "Your GraphQL experience seems intermediate. How would you approach designing a GraphQL API for a high-traffic e-commerce platform?",
+    "Describe your experience with data pipeline architecture at scale. What tools did you use and why did you choose them?",
+    "How do you approach mentoring junior engineers? Can you give an example of how you helped someone grow?",
+    "We occasionally need Rust for performance-critical services. How comfortable are you picking up new systems languages?"
+  ],
+  "red_flags": [],
+  "summary": "Sarah is a highly qualified candidate with strong technical skills and proven leadership experience. Her background in microservices, cloud infrastructure, and data pipelines aligns well with the role requirements. The only minor gap is intermediate GraphQL and no Rust experience, but her learning trajectory suggests she can ramp up quickly."
+}
